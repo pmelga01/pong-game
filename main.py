@@ -48,7 +48,7 @@ while (not gameOver):
     screen.update()
     time.sleep(0.1)
 
-    if (score.p1_score == 1 or score.p2_score == 1):
+    if (score.p1_score == 5 or score.p2_score == 5):
         gameOver = True
         score.game_over()
         break
